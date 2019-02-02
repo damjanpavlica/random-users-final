@@ -1,0 +1,51 @@
+body {
+    background: #F5F7D9;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #468B00;
+}
+
+h2 {
+    color: #A9D907;
+}
+
+#okvir {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.student {
+    background-color: #E3F184;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.veliko-slovo {
+    text-transform: capitalize;
+}
+
+.student img {
+    border-radius: 50%;
+    filter: sepia(0.1);
+    transition: 0.8s;
+}
+
+.student img:hover {
+    filter: sepia(0.8);
+}
+
+@media (min-width: 600px) {
+    .student {
+        width: 250px;
+    }
+}
